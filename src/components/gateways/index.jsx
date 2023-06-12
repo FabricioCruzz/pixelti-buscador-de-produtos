@@ -8,7 +8,7 @@ const Gateways = () => {
   const [gateways, setGateways] = useState([]);
   const [gateway, setGateway] = useState({});
 
-  const logoPixel = "src/assets/logopixelti.png";
+  const logoPixel = "/public/logopixelti.png";
 
   const fetchGateways = async () => {
     await fetch("./gtws.json", {
