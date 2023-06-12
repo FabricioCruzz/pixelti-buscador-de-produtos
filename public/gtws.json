@@ -1,0 +1,24 @@
+{
+  "gateways": [
+    {
+      "_id": "1",
+      "name": "Gateway 1",
+      "devices": [
+        {
+          "_device": "31",
+          "modelId": "Smart Plug"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Gateway 2",
+      "devices": [
+        {
+          "_device": "33",
+          "modelId": "Smart Switch"
+        }
+      ]
+    }
+  ]
+}
