@@ -34,14 +34,13 @@ const Gateways = () => {
     fetchGateways();
   }, []);
 
-  console.log(input);
-  function handleSearch() {
+  const handleSearch = () => {
     if (input === "") {
       alert("Preencha com um id!");
       return;
     }
     findGatewayById(input);
-  }
+  };
 
   return (
     <div className="container">

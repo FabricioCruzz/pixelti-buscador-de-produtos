@@ -2,7 +2,7 @@ import "./listOne.css";
 
 const ListOne = (props) => {
   const { gateway } = props;
-  console.log(props);
+
   return (
     <main className="main">
       <h2>Nome: {gateway.name}</h2>
