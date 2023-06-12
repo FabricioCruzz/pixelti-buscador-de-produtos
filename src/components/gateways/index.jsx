@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import ListOne from "./ListOne";
 import "./style.css";
+import logoPixel from "../../assets/logopixelti.png";
 
 const Gateways = () => {
   const [input, setInput] = useState("");
   const [gateways, setGateways] = useState([]);
   const [gateway, setGateway] = useState({});
 
-  const logoPixel = "/public/logopixelti.png";
+  // const logoPixel = "/public/logopixelti.png";
 
   const fetchGateways = async () => {
     await fetch("./gtws.json", {
