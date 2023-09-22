@@ -20,4 +20,4 @@ Abra [http://localhost:5173](http://localhost:5173) para visualizar no seu naveg
 
 ## Vercel
 
-Este projeto está na Vercel. [Venha conferir](https://buscador-cep-psi.vercel.app/)!
+Este projeto está na Vercel. [Venha conferir](https://pixelti-buscador-de-produtos.vercel.app/)!
